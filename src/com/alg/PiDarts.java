@@ -15,7 +15,7 @@ public class PiDarts {
             boolean newDartInCircle = throwDart();
 
             // Count darts inside and outside of circle
-            if (newDartInCircle == true) { numInsideCircle++; }
+            if (newDartInCircle) { numInsideCircle++; }
             else { numOutsideCircle++; }
         }
 
